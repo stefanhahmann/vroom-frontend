@@ -17,7 +17,7 @@ var panelControl = L.Control.extend({
     // Header for panel control.
     var headerDiv = document.createElement('div');
     headerDiv.setAttribute('class', 'panel-header');
-    headerDiv.innerHTML = '<a href="http://vroom-project.org"><img src="../../images/vroom.svg" alt="Vroom" /></a>';
+    headerDiv.innerHTML = '<a href="https://www.mobikat.net/"><img src="../../images/logo.png" alt="Fraunhofer IVI" /></a>';
     this._div.appendChild(headerDiv);
 
     // Wait icon displayed while solving.
@@ -44,7 +44,7 @@ var panelControl = L.Control.extend({
     list.appendChild(uploadEl);
 
     var jsonUploadEl = document.createElement('li');
-    jsonUploadEl.innerHTML = 'using a <a href="https://github.com/VROOM-Project/vroom/blob/master/docs/API.md">json-formatted</a> file.';
+    jsonUploadEl.innerHTML = 'using a json-formatted file.';
 
     var fileInput = document.createElement('input');
     fileInput.setAttribute('type', 'file');

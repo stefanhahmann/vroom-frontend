@@ -10,7 +10,7 @@ var initZoom = 13;
 
 var attribution = 'Routes computed using <a href="https://maps.openrouteservice.org/">ORS</a>'
     + ' | '
-    + ' optimization supported by <a href="http://vroom-project.org/">Vroom</a>'
+    + ' Optimization supported by <a href="http://vroom-project.org/">Vroom</a>'
     + ' | '
     + '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors';
 if (api.description) {
